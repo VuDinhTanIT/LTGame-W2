@@ -1,0 +1,624 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7812 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Nam4/HK1-4/LapTrinhGame(2)/WorkSpace/week2
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+63025
+Successfully changed project path to: D:/Nam4/HK1-4/LapTrinhGame(2)/WorkSpace/week2
+D:/Nam4/HK1-4/LapTrinhGame(2)/WorkSpace/week2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5332] Host "[IP] 10.60.69.208 [Port] 0 [Flags] 2 [Guid] 864929323 [EditorId] 864929323 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-5FDBJ5TF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5332] Host "[IP] 10.60.69.208 [Port] 0 [Flags] 2 [Guid] 864929323 [EditorId] 864929323 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-5FDBJ5TF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 40.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Nam4/HK1-4/LapTrinhGame(2)/WorkSpace/week2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.2852
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013462 seconds.
+- Loaded All Assemblies, in  0.503 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.215 seconds
+Domain Reload Profiling: 715ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (215ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (170ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.787 seconds
+Refreshing native plugins compatible for Editor in 4.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.659 seconds
+Domain Reload Profiling: 1445ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (552ms)
+		LoadAssemblies (490ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (660ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (498ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4018 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.3 KB). Loaded Objects now: 4474.
+Memory consumption went from 145.2 MB to 145.0 MB.
+Total: 10.177500 ms (FindLiveObjects: 0.846900 ms CreateObjectMapping: 0.137900 ms MarkObjects: 8.984500 ms  DeleteObjects: 0.206600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 223741.594743 seconds.
+  path: Assets/Slide 1.2-Assets/Sprites/Exit Pixelated 1.png
+  artifactKey: Guid(2a494cfdefcd7f1438dcd84a5c8ac7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Sprites/Exit Pixelated 1.png using Guid(2a494cfdefcd7f1438dcd84a5c8ac7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9383725b7e9446b9ab38a9ebdd83e04d') in 0.083741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.411663 seconds.
+  path: Assets/Slide 1.2-Assets/Sprites
+  artifactKey: Guid(80410c1ebf437b84cb2d3459e0d714e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Sprites using Guid(80410c1ebf437b84cb2d3459e0d714e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f08ef49f518e99bc02c9b8cbea5e54') in 0.000866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 117.003758 seconds.
+  path: Assets/Slide 1.2-Assets/Sprites/README - License details.txt
+  artifactKey: Guid(d179f1104e7e7454d892edf06332e181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Sprites/README - License details.txt using Guid(d179f1104e7e7454d892edf06332e181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c27aab5178940c1bb50e24fa4b7855') in 0.007641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 43.430141 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/pivot.fbx
+  artifactKey: Guid(1c7762c9bce5f4ab7b060decb9e3002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/pivot.fbx using Guid(1c7762c9bce5f4ab7b060decb9e3002d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f773e0bb67df64967ec60f6651101aea') in 0.978653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 37.553337 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/Platforms Palette.prefab
+  artifactKey: Guid(be22eddd2eb21e7419b4ee96c8f58c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/Platforms Palette.prefab using Guid(be22eddd2eb21e7419b4ee96c8f58c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a92e404f01dd5c68ba6b4cf6a44562d') in 0.163782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_6.asset
+  artifactKey: Guid(bc2d5595862461944ba94ccf6dbbdc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_6.asset using Guid(bc2d5595862461944ba94ccf6dbbdc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2860c7761d708f3f9d36bd34b828df') in 0.136355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_14.asset
+  artifactKey: Guid(0dfa3e43d208e804097b1cc7fdbdea11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_14.asset using Guid(0dfa3e43d208e804097b1cc7fdbdea11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ed0f4749b628a198ff17efeb1f047f') in 0.005956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_3.asset
+  artifactKey: Guid(ec4a5275b201e7f4da69975c1a724880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_3.asset using Guid(ec4a5275b201e7f4da69975c1a724880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a977a284e6f0c29d2671369726246c') in 0.005498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_4.asset
+  artifactKey: Guid(0db855f8e57c6864785b0d619a865060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_4.asset using Guid(0db855f8e57c6864785b0d619a865060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f105206fde6fb2295e02b557830dc24f') in 0.009041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_8.asset
+  artifactKey: Guid(b2d8a6cdb44ea2343b3ae585f95532a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_8.asset using Guid(b2d8a6cdb44ea2343b3ae585f95532a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebdcbeea32d0718d5460df1e5ee386d') in 0.006322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_6.asset
+  artifactKey: Guid(f1cbf53cd53ddce48857e36eedf9f1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_6.asset using Guid(f1cbf53cd53ddce48857e36eedf9f1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8092d8e2b731232a47072f98b29cd3dc') in 0.009080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_12.asset
+  artifactKey: Guid(a790cf7fe059372438228772f72441d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_12.asset using Guid(a790cf7fe059372438228772f72441d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3c827e78832e205676d3c8a24cb74c') in 0.008568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_13.asset
+  artifactKey: Guid(a60d4bc914d647f4492cd1f28276ca52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_13.asset using Guid(a60d4bc914d647f4492cd1f28276ca52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4316fe27488437326b679c070240ed7f') in 0.006847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_7.asset
+  artifactKey: Guid(877213911778f0e40a1b1843b3714371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_7.asset using Guid(877213911778f0e40a1b1843b3714371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b4dfa4c6a3fd25c6497841050c2843') in 0.005113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_5.asset
+  artifactKey: Guid(6345f0bfe1e2148479a704756fd695bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_5.asset using Guid(6345f0bfe1e2148479a704756fd695bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175f78e8bccae3c8cb4616152ea50275') in 0.005471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_11.asset
+  artifactKey: Guid(35698e1f4d158ba439c3395c93a10ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_11.asset using Guid(35698e1f4d158ba439c3395c93a10ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0c0918213ee53e0c45e5139cf2e5f8') in 0.007341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_12.asset
+  artifactKey: Guid(72de5a52cd7a36f47bc7ab1914774fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_12.asset using Guid(72de5a52cd7a36f47bc7ab1914774fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761a55a7ad36bb2418aaae44cd673f27') in 0.007599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_10.asset
+  artifactKey: Guid(1c161a13df38719478f65fbd8ef99025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_10.asset using Guid(1c161a13df38719478f65fbd8ef99025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa712e49b88043181eb1a0df82f37c0f') in 0.009604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_15.asset
+  artifactKey: Guid(1bff9f9c2d053a04ca30a6d0f824a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_15.asset using Guid(1bff9f9c2d053a04ca30a6d0f824a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0accdef0819a3c97a5c947d9f76d291a') in 0.006281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_8.asset
+  artifactKey: Guid(6651aaf0105e64f459768707b67b20d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_8.asset using Guid(6651aaf0105e64f459768707b67b20d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33807932bfe477034ff4b75b5010a30b') in 0.022131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_9.asset
+  artifactKey: Guid(8e66432fe8c9fc246bc727d13f7e81be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_9.asset using Guid(8e66432fe8c9fc246bc727d13f7e81be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fc7020e9581b1cbc40c4478ec6500e') in 0.007137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_3.asset
+  artifactKey: Guid(93b5e4a1e99b2c141b87b5d7c4a13b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_3.asset using Guid(93b5e4a1e99b2c141b87b5d7c4a13b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e63b871ee6c603818f381476a85605') in 0.008555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Ladder.asset
+  artifactKey: Guid(9e1e9832242886a43858791c3a3a8ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Ladder.asset using Guid(9e1e9832242886a43858791c3a3a8ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d43568e60731ec8363675fade9c9ec') in 0.011105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_2.asset
+  artifactKey: Guid(eddcaf0a32f22944bba8dee17b5c45e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Background brown tint_2.asset using Guid(eddcaf0a32f22944bba8dee17b5c45e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca48df02c6fd174032088f6b0ceaae7') in 0.010624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_0.asset
+  artifactKey: Guid(be4b3aa62d7cb4340aa6d8b8462274d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_0.asset using Guid(be4b3aa62d7cb4340aa6d8b8462274d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60489c78bfd952e35f0aec44a7f077bb') in 0.006213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_1.asset
+  artifactKey: Guid(42bbe2be4ccb6dd4382600626831385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_1.asset using Guid(42bbe2be4ccb6dd4382600626831385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3843ea8e68c757b71756fa326e8177fd') in 0.006879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_11.asset
+  artifactKey: Guid(c52853eafb5ebd446ac7c37237c0c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_11.asset using Guid(c52853eafb5ebd446ac7c37237c0c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d8482c458fba9df2219a85577c627c') in 0.007504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_4.asset
+  artifactKey: Guid(6588dbf50e5ad344daaf37796ba972dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_4.asset using Guid(6588dbf50e5ad344daaf37796ba972dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc13b12e60de0f946269c02b137aad1') in 0.008267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_2.asset
+  artifactKey: Guid(56a90d6573b01504cb99b48b8f6e95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_2.asset using Guid(56a90d6573b01504cb99b48b8f6e95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c69a68a8b2e7946a7cab4d846af501') in 0.007989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.485086 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_13.asset
+  artifactKey: Guid(38ce09d841f47bf4ea0dd21929a9db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_13.asset using Guid(38ce09d841f47bf4ea0dd21929a9db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a647223bb30cda02175f24cb62c4dfc') in 0.007238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_15.asset
+  artifactKey: Guid(ffb38783aae6e244a8dfd1e6c4d55a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_15.asset using Guid(ffb38783aae6e244a8dfd1e6c4d55a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe790ba6c05686cf677c7cd9fc7593e') in 0.006011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_16.asset
+  artifactKey: Guid(e89c635e08ef9e446b54891cbb431d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_16.asset using Guid(e89c635e08ef9e446b54891cbb431d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976b834480f0645f3bf4b2d045b36059') in 0.013595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.122743 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_19.asset
+  artifactKey: Guid(a74dd74814398bc4c8698153a061ba43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_19.asset using Guid(a74dd74814398bc4c8698153a061ba43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a4ee6ab1bddbb55d7a01e844c474a5') in 0.008563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_21.asset
+  artifactKey: Guid(5071c80e2e21c4e4b9da7985e0ac6b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_21.asset using Guid(5071c80e2e21c4e4b9da7985e0ac6b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176c0e6c51e8f1b70bceaba1c32021ee') in 0.006710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_24.asset
+  artifactKey: Guid(4848a3f2d309d79418a680e54f545a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_24.asset using Guid(4848a3f2d309d79418a680e54f545a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfba7069d6c5ac64666c486973dd2f2') in 0.008404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.149755 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_25.asset
+  artifactKey: Guid(99cc79fd4a6e407469da848d16560e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_25.asset using Guid(99cc79fd4a6e407469da848d16560e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb8d591a677842a8fe0b4e548bcf953') in 0.011781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/Spikes.asset
+  artifactKey: Guid(12bb12b89a2f1fa4cb557c5dfa997fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/Spikes.asset using Guid(12bb12b89a2f1fa4cb557c5dfa997fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89dcb325d6fe8f234d8fbb77b66ff063') in 0.018874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.364816 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/TileVania Mushroom.asset
+  artifactKey: Guid(283d516220866f44bbca977f22a11e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/TileVania Mushroom.asset using Guid(283d516220866f44bbca977f22a11e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442e6b213511949d6f38540be3b22c7d') in 0.013374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 119.980846 seconds.
+  path: Assets/Slide 1.2-Assets/Sprites/SPA_Rock_Grass_Water.png
+  artifactKey: Guid(c73580ce381f23d4484ca32cd53a17d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Sprites/SPA_Rock_Grass_Water.png using Guid(c73580ce381f23d4484ca32cd53a17d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f834ee25a80dcae79ef1ca65361726') in 0.111061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 416.182051 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/Platforms Palette.prefab
+  artifactKey: Guid(be22eddd2eb21e7419b4ee96c8f58c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/Platforms Palette.prefab using Guid(be22eddd2eb21e7419b4ee96c8f58c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85c0364cb3d8758aaf21ed4d299bc5d') in 0.052941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Import Request.
+  Time since last request: 0.021803 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_1.asset
+  artifactKey: Guid(42bbe2be4ccb6dd4382600626831385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_1.asset using Guid(42bbe2be4ccb6dd4382600626831385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dfbf09af78f513fb616c74af771069') in 0.008242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_8.asset
+  artifactKey: Guid(6651aaf0105e64f459768707b67b20d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_8.asset using Guid(6651aaf0105e64f459768707b67b20d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342699f741f35eac58e445f24e23d324') in 0.005795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_10.asset
+  artifactKey: Guid(0613991664ebde2449f38780ea826e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_10.asset using Guid(0613991664ebde2449f38780ea826e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cbda1f35cb3a083b0b3f04f9dd469a') in 0.005000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_11.asset
+  artifactKey: Guid(c52853eafb5ebd446ac7c37237c0c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_11.asset using Guid(c52853eafb5ebd446ac7c37237c0c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1f2c3e621b5ac78f56ad764b9c64de') in 0.004121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_5.asset
+  artifactKey: Guid(e72da4453e3911b4986d7524975ce761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_5.asset using Guid(e72da4453e3911b4986d7524975ce761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3967d762799d2783957c4303a5028b54') in 0.006805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.175073 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_13.asset
+  artifactKey: Guid(38ce09d841f47bf4ea0dd21929a9db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_13.asset using Guid(38ce09d841f47bf4ea0dd21929a9db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7fc788edc7a7042985a14c7accbf412') in 0.005234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_15.asset
+  artifactKey: Guid(ffb38783aae6e244a8dfd1e6c4d55a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_15.asset using Guid(ffb38783aae6e244a8dfd1e6c4d55a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7734aa4ea048c2dc0b02b5fdb988d6') in 0.005030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_16.asset
+  artifactKey: Guid(e89c635e08ef9e446b54891cbb431d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_16.asset using Guid(e89c635e08ef9e446b54891cbb431d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac45547df34c30684dfaec6fa3769e5') in 0.005545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.454023 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_19.asset
+  artifactKey: Guid(a74dd74814398bc4c8698153a061ba43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_19.asset using Guid(a74dd74814398bc4c8698153a061ba43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd28557a2e95064e19e5298f84f163d') in 0.005817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_21.asset
+  artifactKey: Guid(5071c80e2e21c4e4b9da7985e0ac6b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_21.asset using Guid(5071c80e2e21c4e4b9da7985e0ac6b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92df0826d0c16646c729b17c8c98b63') in 0.005745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_24.asset
+  artifactKey: Guid(4848a3f2d309d79418a680e54f545a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_24.asset using Guid(4848a3f2d309d79418a680e54f545a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7f5c387d9f59a4f5fe602bb4af5c89') in 0.006715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.045029 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_25.asset
+  artifactKey: Guid(99cc79fd4a6e407469da848d16560e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_25.asset using Guid(99cc79fd4a6e407469da848d16560e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6df406312fb29e817d4dc062b541dd') in 0.009688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_27.asset
+  artifactKey: Guid(4152ed1e983341041a1f3e69b7f4ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Tiles/SPA_Rock_Grass_Water_27.asset using Guid(4152ed1e983341041a1f3e69b7f4ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2fd5a9319adf1ce76eb79c3e505597') in 0.004536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.163097 seconds.
+  path: Assets/Slide 1.2-Assets/Prefabs/1.2_Basic-Game-Object/Platforms Tilemap.prefab
+  artifactKey: Guid(a1f88dafc15776243a5b743c1c95d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Prefabs/1.2_Basic-Game-Object/Platforms Tilemap.prefab using Guid(a1f88dafc15776243a5b743c1c95d663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14e8b46eb6fff209b9307d3c0d4261e') in 0.036267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 2.101064 seconds.
+  path: Assets/Slide 1.2-Assets/Prefabs/Tilemap Grid.prefab
+  artifactKey: Guid(6c299a59df9137c4e9162f2c40d95f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Slide 1.2-Assets/Prefabs/Tilemap Grid.prefab using Guid(6c299a59df9137c4e9162f2c40d95f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3eb19b800d2640b22dfd85d8bcd4d6') in 0.029451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
